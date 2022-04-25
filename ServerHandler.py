@@ -4,7 +4,7 @@ import sys
 import select
 import socket
 import random
-from urllib.parse import urlparse
+import urlparse
 import ServerInfo
 import ServerConfig
 import ServerSocks
