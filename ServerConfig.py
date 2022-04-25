@@ -9,8 +9,8 @@ conf = os.path.realpath(os.path.join(os.path.dirname(__file__), '%s' % name))
 class Sets:
 
     def __init__(self):
-        self.LHOST = '127.0.0.1'
-        self.LPORT = 8080
+        self.LHOST = '0.0.0.0'
+        self.LPORT = 9959
         self.FQUERY = ''
         self.MQUERY = ''
         self.BQUERY = ''
@@ -22,7 +22,7 @@ class Sets:
         self.ISPLIT = 0
         self.RPORT = 0
         self.RPATH = 0
-        self.ADMODE = 1
+        self.ADMODE = 0
         self.CUSHDR0 = ''
         self.VALHDR0 = ''
         self.CUSHDR1 = ''
