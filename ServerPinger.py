@@ -1,5 +1,5 @@
 import random
-import urllib2
+import urllib
 import ServerConfig
 
 class Pinger:
